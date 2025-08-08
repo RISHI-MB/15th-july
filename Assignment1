@@ -1,0 +1,9 @@
+# complex object demo program
+a = 3 + 4j # ref a points to object 3+4j
+print(a) # value of object a i.e 3+4j
+print(type(a)) # Type of object a i.e < class complex >
+print(id(a)) # Address of a object a i.e < may be 1000>
+print(a . real) # Real value of complex number a i.e 3
+print(a . imag) # imag value of complex number a i.e 4
+print(type(a . real)) #  Type of object a i.e < class complex >
+print(type(a . imag)) #  Type of object a i.e < class complex >
