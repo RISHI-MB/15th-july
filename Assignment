@@ -1,0 +1,16 @@
+# float  object  demo  program (Home  work)
+a = 10.8 # ref a points to object 10.8
+print(a) # value of object a i.e 10.8
+print(type(a)) # Type of object a i.e <class float>
+print(id(a)) # Address of object a i.e <may be 1000>
+b = 25. # ref b points to object 25.0
+print(b) # value of object b i.e 25.0
+print(type(b)) # Type of object b i.e <class float>
+c = .689 # ref c points to object o.689
+print(c) # value of object b i.e 0.689
+d = 3.4E2 # ref d points to object 3.4E2
+print(d) # value of object d i.e 340
+print(type(d)) # Type of object a i.e <class float>
+e = 9.62e-2 # ref e points to object 9.62e-2
+print(e) # value of object d i.e 0.962
+print(9.8.2) # Error it is not a int or float class
