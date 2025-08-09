@@ -1,0 +1,12 @@
+# Find  outputs (Home  work)
+a = 0O6247 # Ref a points to object 0O6247
+print(a) # 6 * 8^3 + 2 * 8^2 + 4 * 8^1 + 7 * 8^0 =3239
+print(type(a)) # Type of object a i.e <class int>
+print(id(a)) # Address of object a i.e <may be 1000>
+b = 0o6247 #  Ref b points to object 0o6247
+print(id(b)) #  Address of object b i.e <may be 1000>
+print(b) # 6 * 8^3 + 2 * 8^2 + 4 * 8^1 + 7 * 8^0 =3239
+c = 3239 #  Ref c points to object 3239
+print(c) # 3239
+print(id(c)) # Address of object c i.e <may be 1000>
+print(0o9248) # Error due to use of 9,8
