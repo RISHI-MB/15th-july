@@ -1,0 +1,19 @@
+# bool object demo program  (Home  work)
+a = True # Ref a points to bool object True
+print(a) # Value of object True
+print(type(a)) # type of object <class bool>
+print(id(a)) # Address of bool class object a is i.e <may be 1000>
+b = False # Ref b points to bool object False
+print(b) # Value of object False
+print(type(b)) # type of object <class bool>
+print(True + True) # True=1---Result is 1+1=2
+print(True + False) #  True=1,False=0---Result is 1+0=1
+print(False + True) #  True=1,False=0---Result is 0+1=1
+print(False + False) # False=0---Result is 0+0=0
+print(True + True + True) #  True=1---Result is 1+1+1=3
+print(25 + 10.8 + True) # True=1---Result is 25+10.8+1=36.8
+print(True > False) # True
+print(True) # True
+print(False) # False
+print(true) # Error due to lowercase letter t not used in bool class object
+print(false) # Error due to lowercase letter f not used in bool class object 
